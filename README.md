@@ -5,6 +5,14 @@
 Клиент `company_id = 1`, период `[2021-07-01; 2022-05-01)`.
 Это историческая учебная выборка, выгруженная 03.10.2026 из базы Simulative.
 
+## Отчёт и дашборд
+
+- [Отчёт в Google Docs](https://docs.google.com/document/d/1Hvax3nx2yUwehBfWjWeVSXiHBahxwYKU5-xevCZWLAM/edit).
+- [Дашборд: охват, прогресс и удержание](https://metabase.simulative.ru/dashboard/1302#refresh=600).
+- [Проект Metabase и практика Filter Fields](https://github.com/GilachOne/simulative-metabase).
+
+Дашборд использует тот же контрольный срез, что и отчёт: компания 1, 01.07.2021–30.04.2022 включительно. Для Metabase нужна учётная запись учебной платформы с доступом к коллекции.
+
 ## Структура проекта
 
 - `report.docx` — основной отчёт с результатами, графиками, выводами и полным SQL.
