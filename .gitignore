@@ -1,0 +1,7 @@
+source/company1-export.csv
+source/original-report.md
+qa/
+qa-final/
+__pycache__/
+*.zip
+!sql-project-revised.zip

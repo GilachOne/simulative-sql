@@ -1,0 +1,74 @@
+﻿table_name,column_name,data_type
+coderun,id,integer
+coderun,created_at,timestamp without time zone
+coderun,problem_id,integer
+coderun,user_id,integer
+coderun,language_id,integer
+codesubmit,id,integer
+codesubmit,created_at,timestamp without time zone
+codesubmit,code,text
+codesubmit,problem_id,integer
+codesubmit,user_id,integer
+codesubmit,is_false,smallint
+codesubmit,time_spent,character varying
+codesubmit,language_id,integer
+company,id,integer
+company,name,character varying
+company,description,text
+company,logo,character varying
+company,db_cred,character varying
+company,site,character varying
+company,welcome_bonus,smallint
+problem,id,integer
+problem,name,character varying
+problem,complexity,integer
+problem,bonus,integer
+problem,task,text
+problem,solution,text
+problem,cost,integer
+problem,rating,numeric
+problem,page_id,integer
+problem,solution_cost,smallint
+problem,priority,numeric
+problem,company_id,integer
+problem,is_visible,boolean
+problem,is_private,boolean
+problem,recommendation,text
+problem_to_company,id,integer
+problem_to_company,name,character varying
+problem_to_company,task,text
+problem_to_company,cost,smallint
+problem_to_company,company_id,integer
+problem_to_company,problem_id,integer
+problem_to_company,bonus,smallint
+problem_to_company,priority,numeric
+transaction,id,integer
+transaction,created_at,timestamp without time zone
+transaction,value,smallint
+transaction,type_id,smallint
+transaction,user_id,integer
+transactiontype,type,smallint
+transactiontype,description,character varying
+transactiontype,value,smallint
+transactiontype,is_visible,integer
+transactiontype,reason,character varying
+transactiontype,icon,character varying
+transactiontype,button,character varying
+transactiontype,tooltip,text
+transactiontype,destination_id,integer
+transactiontype,allowed_for,character varying
+userentry,id,integer
+userentry,entry_at,timestamp without time zone
+userentry,page_id,integer
+userentry,user_id,integer
+users,id,integer
+users,username,character varying
+users,first_name,character varying
+users,last_name,character varying
+users,is_active,integer
+users,date_joined,timestamp without time zone
+users,email,character varying
+users,referal_user,integer
+users,company_id,integer
+users,tier,integer
+users,score,integer

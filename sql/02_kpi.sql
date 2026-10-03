@@ -1,0 +1,10 @@
+SELECT (SELECT count(*) FROM cu) AS students,
+       (SELECT count(DISTINCT user_id) FROM visits, params WHERE entry_at >= start_at) AS visitors,
+       (SELECT count(DISTINCT user_id) FROM runs, params WHERE created_at >= start_at) AS coders,
+       (SELECT count(DISTINCT user_id) FROM submits, params WHERE created_at >= start_at) AS submitters,
+       (SELECT count(DISTINCT user_id) FROM first_success, params WHERE solved_at >= start_at) AS solvers,
+       (SELECT count(*) FROM runs, params WHERE created_at >= start_at) AS runs,
+       (SELECT count(*) FROM submits, params WHERE created_at >= start_at) AS submissions,
+       (SELECT count(*) FROM submits, params WHERE created_at >= start_at AND is_false = 0) AS successful_submissions,
+       (SELECT count(*) FROM submits, params WHERE created_at >= start_at AND (is_false IS NULL OR is_false NOT IN (0,1))) AS unknown_status,
+       (SELECT count(*) FROM first_success, params WHERE solved_at >= start_at) AS new_user_problem_solutions;

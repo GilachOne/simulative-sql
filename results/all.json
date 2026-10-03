@@ -1,0 +1,2625 @@
+{
+  "01_quality": [
+    {
+      "dataset": "users",
+      "rows_count": 133,
+      "duplicate_ids": 0,
+      "first_at": "2021-07-01T09:11:42.966166",
+      "last_at": "2022-04-19T14:27:44.547156",
+      "null_dates": 0,
+      "before_registration": 0
+    },
+    {
+      "dataset": "coderun",
+      "rows_count": 16857,
+      "duplicate_ids": 0,
+      "first_at": "2021-09-19T23:09:31.866023",
+      "last_at": "2022-05-17T08:04:30.754493",
+      "null_dates": 0,
+      "before_registration": 0
+    },
+    {
+      "dataset": "codesubmit",
+      "rows_count": 6398,
+      "duplicate_ids": 0,
+      "first_at": "2021-09-19T23:38:07.673772",
+      "last_at": "2022-05-17T08:02:46.461932",
+      "null_dates": 0,
+      "before_registration": 0
+    },
+    {
+      "dataset": "userentry",
+      "rows_count": 1266,
+      "duplicate_ids": 0,
+      "first_at": "2021-08-04T13:30:18.064557",
+      "last_at": "2022-05-24T21:51:54.029027",
+      "null_dates": 0,
+      "before_registration": 0
+    }
+  ],
+  "02_kpi": [
+    {
+      "students": 133,
+      "visitors": 126,
+      "coders": 98,
+      "submitters": 97,
+      "solvers": 97,
+      "runs": 15729,
+      "submissions": 5938,
+      "successful_submissions": 3086,
+      "unknown_status": 0,
+      "new_user_problem_solutions": 2807
+    }
+  ],
+  "03_monthly": [
+    {
+      "month": "2021-07-01",
+      "students_to_date": 1,
+      "visitors": 0,
+      "active_students": 0,
+      "runs": 0,
+      "submissions": 0,
+      "new_solutions": 0
+    },
+    {
+      "month": "2021-08-01",
+      "students_to_date": 2,
+      "visitors": 2,
+      "active_students": 0,
+      "runs": 0,
+      "submissions": 0,
+      "new_solutions": 0
+    },
+    {
+      "month": "2021-09-01",
+      "students_to_date": 2,
+      "visitors": 2,
+      "active_students": 2,
+      "runs": 105,
+      "submissions": 198,
+      "new_solutions": 8
+    },
+    {
+      "month": "2021-10-01",
+      "students_to_date": 2,
+      "visitors": 2,
+      "active_students": 1,
+      "runs": 39,
+      "submissions": 11,
+      "new_solutions": 1
+    },
+    {
+      "month": "2021-11-01",
+      "students_to_date": 42,
+      "visitors": 38,
+      "active_students": 22,
+      "runs": 976,
+      "submissions": 615,
+      "new_solutions": 343
+    },
+    {
+      "month": "2021-12-01",
+      "students_to_date": 71,
+      "visitors": 54,
+      "active_students": 34,
+      "runs": 2396,
+      "submissions": 780,
+      "new_solutions": 472
+    },
+    {
+      "month": "2022-01-01",
+      "students_to_date": 95,
+      "visitors": 54,
+      "active_students": 38,
+      "runs": 3574,
+      "submissions": 1117,
+      "new_solutions": 534
+    },
+    {
+      "month": "2022-02-01",
+      "students_to_date": 112,
+      "visitors": 41,
+      "active_students": 32,
+      "runs": 3038,
+      "submissions": 775,
+      "new_solutions": 398
+    },
+    {
+      "month": "2022-03-01",
+      "students_to_date": 119,
+      "visitors": 31,
+      "active_students": 21,
+      "runs": 1444,
+      "submissions": 332,
+      "new_solutions": 173
+    },
+    {
+      "month": "2022-04-01",
+      "students_to_date": 133,
+      "visitors": 56,
+      "active_students": 39,
+      "runs": 4157,
+      "submissions": 2110,
+      "new_solutions": 878
+    }
+  ],
+  "04_activation": [
+    {
+      "days": 7,
+      "eligible": 133,
+      "activated": 79,
+      "activation_pct": 59.4
+    },
+    {
+      "days": 14,
+      "eligible": 131,
+      "activated": 82,
+      "activation_pct": 62.6
+    }
+  ],
+  "05_activation_return": [
+    {
+      "early": true,
+      "students": 69,
+      "returned": 19,
+      "return_pct": 27.54
+    },
+    {
+      "early": false,
+      "students": 43,
+      "returned": 9,
+      "return_pct": 20.93
+    }
+  ],
+  "06_progress": [
+    {
+      "label": "0",
+      "students": 36
+    },
+    {
+      "label": "1–2",
+      "students": 6
+    },
+    {
+      "label": "3–5",
+      "students": 7
+    },
+    {
+      "label": "6–10",
+      "students": 8
+    },
+    {
+      "label": "11+",
+      "students": 76
+    }
+  ],
+  "07_difficult_tasks": [
+    {
+      "problem_id": 197,
+      "name": "Python. ДЗ 7: Пополнение словаря",
+      "complexity": 2,
+      "students": 5,
+      "solvers": 3,
+      "attempts": 38,
+      "failed": 35,
+      "error_pct": 92.11,
+      "median_attempts": 1.0,
+      "p90_attempts": 4.2
+    },
+    {
+      "problem_id": 236,
+      "name": "Python. ДЗ 2: Создание многострочных строк",
+      "complexity": 1,
+      "students": 14,
+      "solvers": 13,
+      "attempts": 85,
+      "failed": 70,
+      "error_pct": 82.35,
+      "median_attempts": 5.0,
+      "p90_attempts": 10.600000000000001
+    },
+    {
+      "problem_id": 248,
+      "name": "Python. ДЗ 3: Комплексная работа со строками",
+      "complexity": 2,
+      "students": 5,
+      "solvers": 5,
+      "attempts": 31,
+      "failed": 25,
+      "error_pct": 80.65,
+      "median_attempts": 5.0,
+      "p90_attempts": 10.0
+    },
+    {
+      "problem_id": 239,
+      "name": "Python. ДЗ 3: Стрип строки",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 12,
+      "attempts": 75,
+      "failed": 60,
+      "error_pct": 80.0,
+      "median_attempts": 4.0,
+      "p90_attempts": 8.0
+    },
+    {
+      "problem_id": 235,
+      "name": "Python. ДЗ 2: Строки с экранированием",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 12,
+      "attempts": 60,
+      "failed": 47,
+      "error_pct": 78.33,
+      "median_attempts": 4.0,
+      "p90_attempts": 7.9
+    },
+    {
+      "problem_id": 240,
+      "name": "Python. ДЗ 3: Сплит строки",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 11,
+      "attempts": 54,
+      "failed": 42,
+      "error_pct": 77.78,
+      "median_attempts": 4.0,
+      "p90_attempts": 5.0
+    },
+    {
+      "problem_id": 221,
+      "name": "Python. ДЗ 1: Округление числа",
+      "complexity": 1,
+      "students": 17,
+      "solvers": 16,
+      "attempts": 68,
+      "failed": 51,
+      "error_pct": 75.0,
+      "median_attempts": 4.0,
+      "p90_attempts": 7.0
+    },
+    {
+      "problem_id": 222,
+      "name": "Python. ДЗ 1: Округление вниз",
+      "complexity": 1,
+      "students": 17,
+      "solvers": 16,
+      "attempts": 66,
+      "failed": 47,
+      "error_pct": 71.21,
+      "median_attempts": 3.5,
+      "p90_attempts": 6.0
+    },
+    {
+      "problem_id": 183,
+      "name": "Python. ДЗ 5: Ограничить число границами диапазона",
+      "complexity": 1,
+      "students": 10,
+      "solvers": 10,
+      "attempts": 44,
+      "failed": 31,
+      "error_pct": 70.45,
+      "median_attempts": 3.0,
+      "p90_attempts": 5.599999999999998
+    },
+    {
+      "problem_id": 184,
+      "name": "Python. ДЗ 5: Аналог switch-case в языке Python",
+      "complexity": 1,
+      "students": 9,
+      "solvers": 9,
+      "attempts": 32,
+      "failed": 21,
+      "error_pct": 65.63,
+      "median_attempts": 2.0,
+      "p90_attempts": 6.4
+    },
+    {
+      "problem_id": 165,
+      "name": "Numpy. ДЗ 2: Случайные числа и плоские массивы",
+      "complexity": 2,
+      "students": 9,
+      "solvers": 9,
+      "attempts": 26,
+      "failed": 17,
+      "error_pct": 65.38,
+      "median_attempts": 3.0,
+      "p90_attempts": 5.0
+    },
+    {
+      "problem_id": 219,
+      "name": "Python. ДЗ 1: Опеределение типа переменной",
+      "complexity": 1,
+      "students": 19,
+      "solvers": 17,
+      "attempts": 72,
+      "failed": 46,
+      "error_pct": 63.89,
+      "median_attempts": 2.0,
+      "p90_attempts": 4.4
+    },
+    {
+      "problem_id": 150,
+      "name": "NEW! SQL. ДЗ 5. Следующее/предыдущее значение",
+      "complexity": 2,
+      "students": 31,
+      "solvers": 31,
+      "attempts": 99,
+      "failed": 63,
+      "error_pct": 63.64,
+      "median_attempts": 2.0,
+      "p90_attempts": 5.0
+    },
+    {
+      "problem_id": 220,
+      "name": "Python. ДЗ 1: Экспоненциальная запись числа",
+      "complexity": 1,
+      "students": 17,
+      "solvers": 16,
+      "attempts": 48,
+      "failed": 30,
+      "error_pct": 62.5,
+      "median_attempts": 2.5,
+      "p90_attempts": 4.5
+    },
+    {
+      "problem_id": 123,
+      "name": "NEW! SQL. ДЗ 1. Расчет наценки",
+      "complexity": 1,
+      "students": 68,
+      "solvers": 67,
+      "attempts": 187,
+      "failed": 115,
+      "error_pct": 61.5,
+      "median_attempts": 2.0,
+      "p90_attempts": 5.399999999999999
+    },
+    {
+      "problem_id": 158,
+      "name": "Numpy. ДЗ 1: Статистическая обработка массива",
+      "complexity": 1,
+      "students": 12,
+      "solvers": 12,
+      "attempts": 31,
+      "failed": 19,
+      "error_pct": 61.29,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.9000000000000004
+    },
+    {
+      "problem_id": 135,
+      "name": "SQL. ДЗ 3. Категории анализов, которые не заказывали",
+      "complexity": 2,
+      "students": 55,
+      "solvers": 53,
+      "attempts": 149,
+      "failed": 91,
+      "error_pct": 61.07,
+      "median_attempts": 2.0,
+      "p90_attempts": 5.0
+    },
+    {
+      "problem_id": 147,
+      "name": "SQL. ДЗ 5. Нумерация строк чека",
+      "complexity": 2,
+      "students": 35,
+      "solvers": 34,
+      "attempts": 92,
+      "failed": 56,
+      "error_pct": 60.87,
+      "median_attempts": 2.0,
+      "p90_attempts": 3.6999999999999993
+    },
+    {
+      "problem_id": 140,
+      "name": "SQL. ДЗ 4. Сотрудники с максимальными накоплениями",
+      "complexity": 1,
+      "students": 44,
+      "solvers": 44,
+      "attempts": 117,
+      "failed": 70,
+      "error_pct": 59.83,
+      "median_attempts": 1.5,
+      "p90_attempts": 4.700000000000003
+    },
+    {
+      "problem_id": 136,
+      "name": "SQL. ДЗ 3. Фильтр по наценке и по группе",
+      "complexity": 1,
+      "students": 50,
+      "solvers": 49,
+      "attempts": 127,
+      "failed": 75,
+      "error_pct": 59.06,
+      "median_attempts": 2.0,
+      "p90_attempts": 5.0
+    },
+    {
+      "problem_id": 139,
+      "name": "SQL. ДЗ 4. Количество чеков по сотрудникам",
+      "complexity": 1,
+      "students": 46,
+      "solvers": 45,
+      "attempts": 116,
+      "failed": 68,
+      "error_pct": 58.62,
+      "median_attempts": 2.0,
+      "p90_attempts": 4.0
+    },
+    {
+      "problem_id": 141,
+      "name": "SQL. ДЗ 4. Начисления с разбивкой по сотрудникам и по типу скидки",
+      "complexity": 1,
+      "students": 42,
+      "solvers": 42,
+      "attempts": 107,
+      "failed": 61,
+      "error_pct": 57.01,
+      "median_attempts": 2.0,
+      "p90_attempts": 5.899999999999999
+    },
+    {
+      "problem_id": 122,
+      "name": "SQL. ДЗ 1. Поиск по слову в названии",
+      "complexity": 1,
+      "students": 70,
+      "solvers": 70,
+      "attempts": 177,
+      "failed": 97,
+      "error_pct": 54.8,
+      "median_attempts": 2.0,
+      "p90_attempts": 4.100000000000001
+    },
+    {
+      "problem_id": 119,
+      "name": "SQL. ДЗ 1. Возраст клиентов",
+      "complexity": 1,
+      "students": 75,
+      "solvers": 70,
+      "attempts": 153,
+      "failed": 80,
+      "error_pct": 52.29,
+      "median_attempts": 1.0,
+      "p90_attempts": 4.0
+    },
+    {
+      "problem_id": 142,
+      "name": "SQL. ДЗ 4. Чеки за период дат",
+      "complexity": 1,
+      "students": 42,
+      "solvers": 42,
+      "attempts": 92,
+      "failed": 48,
+      "error_pct": 52.17,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 185,
+      "name": "Python. ДЗ 5: Правильно обработать None",
+      "complexity": 1,
+      "students": 9,
+      "solvers": 9,
+      "attempts": 23,
+      "failed": 12,
+      "error_pct": 52.17,
+      "median_attempts": 1.0,
+      "p90_attempts": 4.800000000000001
+    },
+    {
+      "problem_id": 157,
+      "name": "Numpy. ДЗ 1: Индексация массива и срезы",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 13,
+      "attempts": 27,
+      "failed": 14,
+      "error_pct": 51.85,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.8000000000000007
+    },
+    {
+      "problem_id": 151,
+      "name": "NEW! SQL. ДЗ 6. Прирост начислений",
+      "complexity": 2,
+      "students": 30,
+      "solvers": 29,
+      "attempts": 58,
+      "failed": 29,
+      "error_pct": 50.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 4.199999999999999
+    },
+    {
+      "problem_id": 155,
+      "name": "Numpy. ДЗ 1: Создание массива из списка",
+      "complexity": 1,
+      "students": 17,
+      "solvers": 17,
+      "attempts": 36,
+      "failed": 18,
+      "error_pct": 50.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 5.0
+    },
+    {
+      "problem_id": 148,
+      "name": "NEW! SQL. ДЗ 5. Ранжирование с разрывами",
+      "complexity": 2,
+      "students": 33,
+      "solvers": 33,
+      "attempts": 73,
+      "failed": 36,
+      "error_pct": 49.32,
+      "median_attempts": 1.0,
+      "p90_attempts": 4.0
+    },
+    {
+      "problem_id": 144,
+      "name": "NEW! SQL. ДЗ 4. Фильтрация агрегированных значений",
+      "complexity": 2,
+      "students": 39,
+      "solvers": 39,
+      "attempts": 80,
+      "failed": 39,
+      "error_pct": 48.75,
+      "median_attempts": 1.0,
+      "p90_attempts": 4.0
+    },
+    {
+      "problem_id": 129,
+      "name": "NEW! SQL. ДЗ 2. Фильтр по длине слов",
+      "complexity": 1,
+      "students": 69,
+      "solvers": 68,
+      "attempts": 136,
+      "failed": 65,
+      "error_pct": 47.79,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.3000000000000043
+    },
+    {
+      "problem_id": 161,
+      "name": "Numpy. ДЗ 2: Множественные преобразования матриц",
+      "complexity": 2,
+      "students": 9,
+      "solvers": 9,
+      "attempts": 21,
+      "failed": 10,
+      "error_pct": 47.62,
+      "median_attempts": 2.0,
+      "p90_attempts": 4.0
+    },
+    {
+      "problem_id": 146,
+      "name": "SQL. ДЗ 5. Нарастающий итог",
+      "complexity": 2,
+      "students": 35,
+      "solvers": 33,
+      "attempts": 66,
+      "failed": 31,
+      "error_pct": 46.97,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 218,
+      "name": "Python. ДЗ 1: Создание числовой переменной",
+      "complexity": 1,
+      "students": 20,
+      "solvers": 20,
+      "attempts": 46,
+      "failed": 21,
+      "error_pct": 45.65,
+      "median_attempts": 2.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 137,
+      "name": "NEW! SQL. ДЗ 3. Минимальное значение по лексикографическому принципу",
+      "complexity": 1,
+      "students": 48,
+      "solvers": 48,
+      "attempts": 92,
+      "failed": 40,
+      "error_pct": 43.48,
+      "median_attempts": 1.5,
+      "p90_attempts": 3.3000000000000043
+    },
+    {
+      "problem_id": 152,
+      "name": "NEW! SQL. ДЗ 6. Среднее значение транзакций",
+      "complexity": 2,
+      "students": 29,
+      "solvers": 29,
+      "attempts": 56,
+      "failed": 24,
+      "error_pct": 42.86,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.1999999999999993
+    },
+    {
+      "problem_id": 145,
+      "name": "NEW! SQL. ДЗ 4. Второй и третий сотрудник",
+      "complexity": 2,
+      "students": 40,
+      "solvers": 40,
+      "attempts": 74,
+      "failed": 31,
+      "error_pct": 41.89,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 134,
+      "name": "SQL. ДЗ 3. Смоделировать EXCEPT через JOIN",
+      "complexity": 1,
+      "students": 59,
+      "solvers": 58,
+      "attempts": 110,
+      "failed": 46,
+      "error_pct": 41.82,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 241,
+      "name": "Python. ДЗ 3: Регистр букв в строке",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 13,
+      "attempts": 24,
+      "failed": 10,
+      "error_pct": 41.67,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.8000000000000007
+    },
+    {
+      "problem_id": 131,
+      "name": "NEW! SQL. ДЗ 2. Поиск значений из списка",
+      "complexity": 1,
+      "students": 66,
+      "solvers": 66,
+      "attempts": 116,
+      "failed": 47,
+      "error_pct": 40.52,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.5
+    },
+    {
+      "problem_id": 149,
+      "name": "NEW! SQL. ДЗ 5. Ранжирование без разрывов",
+      "complexity": 2,
+      "students": 33,
+      "solvers": 33,
+      "attempts": 57,
+      "failed": 23,
+      "error_pct": 40.35,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 138,
+      "name": "NEW! SQL. ДЗ 3. Транзитивная связь",
+      "complexity": 1,
+      "students": 46,
+      "solvers": 46,
+      "attempts": 85,
+      "failed": 34,
+      "error_pct": 40.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 226,
+      "name": "Python. ДЗ 1: Конвертация типов",
+      "complexity": 1,
+      "students": 15,
+      "solvers": 15,
+      "attempts": 28,
+      "failed": 11,
+      "error_pct": 39.29,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 244,
+      "name": "Python. ДЗ 3: Поиск подстроки",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 12,
+      "attempts": 21,
+      "failed": 8,
+      "error_pct": 38.1,
+      "median_attempts": 1.5,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 133,
+      "name": "NEW! SQL. ДЗ 2. Регулярные выражения",
+      "complexity": 2,
+      "students": 62,
+      "solvers": 61,
+      "attempts": 108,
+      "failed": 41,
+      "error_pct": 37.96,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 245,
+      "name": "Python. ДЗ 3: Слайсинг строки",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 13,
+      "attempts": 24,
+      "failed": 9,
+      "error_pct": 37.5,
+      "median_attempts": 2.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 125,
+      "name": "SQL. ДЗ 1. Нечетные ID",
+      "complexity": 1,
+      "students": 70,
+      "solvers": 69,
+      "attempts": 114,
+      "failed": 42,
+      "error_pct": 36.84,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 230,
+      "name": "Python. ДЗ 2: Конкатенация строк",
+      "complexity": 1,
+      "students": 14,
+      "solvers": 14,
+      "attempts": 23,
+      "failed": 8,
+      "error_pct": 34.78,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 227,
+      "name": "Python. ДЗ 1: Использование сокращенных операторов",
+      "complexity": 1,
+      "students": 15,
+      "solvers": 15,
+      "attempts": 27,
+      "failed": 9,
+      "error_pct": 33.33,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 223,
+      "name": "Python. ДЗ 1: Создание комплексных чисел",
+      "complexity": 1,
+      "students": 15,
+      "solvers": 15,
+      "attempts": 25,
+      "failed": 8,
+      "error_pct": 32.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 225,
+      "name": "Python. ДЗ 1: Нахождение комплексно-сопряженного",
+      "complexity": 1,
+      "students": 15,
+      "solvers": 15,
+      "attempts": 25,
+      "failed": 8,
+      "error_pct": 32.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.5999999999999996
+    },
+    {
+      "problem_id": 237,
+      "name": "Python. ДЗ 3: F-строки",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 13,
+      "attempts": 22,
+      "failed": 7,
+      "error_pct": 31.82,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.8000000000000007
+    },
+    {
+      "problem_id": 124,
+      "name": "SQL. ДЗ 1. Найти ошибку в запросе",
+      "complexity": 1,
+      "students": 70,
+      "solvers": 68,
+      "attempts": 105,
+      "failed": 33,
+      "error_pct": 31.43,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.3000000000000043
+    },
+    {
+      "problem_id": 233,
+      "name": "Python. ДЗ 2: Нахождение длины строки",
+      "complexity": 1,
+      "students": 13,
+      "solvers": 13,
+      "attempts": 20,
+      "failed": 6,
+      "error_pct": 30.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 143,
+      "name": "SQL. ДЗ 4. Поиск дублей группировкой",
+      "complexity": 2,
+      "students": 41,
+      "solvers": 41,
+      "attempts": 67,
+      "failed": 20,
+      "error_pct": 29.85,
+      "median_attempts": 1.0,
+      "p90_attempts": 3.0
+    },
+    {
+      "problem_id": 234,
+      "name": "Python. ДЗ 2: Создание строк с кавычками",
+      "complexity": 1,
+      "students": 14,
+      "solvers": 14,
+      "attempts": 21,
+      "failed": 6,
+      "error_pct": 28.57,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.700000000000001
+    },
+    {
+      "problem_id": 130,
+      "name": "NEW! SQL. ДЗ 2. Комбинирование условий фильтрации",
+      "complexity": 1,
+      "students": 67,
+      "solvers": 67,
+      "attempts": 94,
+      "failed": 25,
+      "error_pct": 26.6,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.3999999999999986
+    },
+    {
+      "problem_id": 117,
+      "name": "SQL. ДЗ 1. Анализы в диапазоне цен",
+      "complexity": 1,
+      "students": 82,
+      "solvers": 82,
+      "attempts": 134,
+      "failed": 35,
+      "error_pct": 26.12,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 232,
+      "name": "Python. ДЗ 2: Конвертация из строки",
+      "complexity": 1,
+      "students": 14,
+      "solvers": 14,
+      "attempts": 20,
+      "failed": 5,
+      "error_pct": 25.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 118,
+      "name": "SQL. ДЗ 1. Уникальные типы анализов",
+      "complexity": 1,
+      "students": 78,
+      "solvers": 78,
+      "attempts": 105,
+      "failed": 24,
+      "error_pct": 22.86,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 229,
+      "name": "Python. ДЗ 2: Умножение строк",
+      "complexity": 1,
+      "students": 15,
+      "solvers": 15,
+      "attempts": 20,
+      "failed": 4,
+      "error_pct": 20.0,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 126,
+      "name": "NEW! SQL. ДЗ 1. Фильтр и сортировка розничной цены",
+      "complexity": 1,
+      "students": 71,
+      "solvers": 71,
+      "attempts": 89,
+      "failed": 17,
+      "error_pct": 19.1,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 224,
+      "name": "Python. ДЗ 1: Выделение мнимой и действительной части",
+      "complexity": 1,
+      "students": 15,
+      "solvers": 15,
+      "attempts": 21,
+      "failed": 4,
+      "error_pct": 19.05,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 127,
+      "name": "NEW! SQL. ДЗ 1. Смешанная сортировка",
+      "complexity": 1,
+      "students": 70,
+      "solvers": 70,
+      "attempts": 87,
+      "failed": 16,
+      "error_pct": 18.39,
+      "median_attempts": 1.0,
+      "p90_attempts": 2.0
+    },
+    {
+      "problem_id": 120,
+      "name": "SQL. ДЗ 1. Начало телефонного номера",
+      "complexity": 1,
+      "students": 74,
+      "solvers": 74,
+      "attempts": 89,
+      "failed": 13,
+      "error_pct": 14.61,
+      "median_attempts": 1.0,
+      "p90_attempts": 1.0
+    },
+    {
+      "problem_id": 128,
+      "name": "NEW! SQL. ДЗ 2. Фильтр строк неравенством",
+      "complexity": 1,
+      "students": 70,
+      "solvers": 70,
+      "attempts": 81,
+      "failed": 8,
+      "error_pct": 9.88,
+      "median_attempts": 1.0,
+      "p90_attempts": 1.1000000000000014
+    },
+    {
+      "problem_id": 132,
+      "name": "NEW! SQL. ДЗ 2. Отсутствие пропусков",
+      "complexity": 1,
+      "students": 66,
+      "solvers": 66,
+      "attempts": 72,
+      "failed": 6,
+      "error_pct": 8.33,
+      "median_attempts": 1.0,
+      "p90_attempts": 1.0
+    },
+    {
+      "problem_id": 121,
+      "name": "SQL. ДЗ 1. Конец телефонного номера",
+      "complexity": 1,
+      "students": 73,
+      "solvers": 73,
+      "attempts": 75,
+      "failed": 2,
+      "error_pct": 2.67,
+      "median_attempts": 1.0,
+      "p90_attempts": 1.0
+    }
+  ],
+  "08_homework": [
+    {
+      "assigned_tasks": 124,
+      "attempted_tasks": 123,
+      "solved_tasks": 122,
+      "potential_student_task_pairs": 16492,
+      "attempted_pairs": 2774,
+      "solved_pairs": 2716,
+      "attempting_students": 96,
+      "solving_students": 96
+    }
+  ],
+  "09_retention": [
+    {
+      "cohort": "2021-07-01",
+      "month_number": 0,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 1,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 2,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 3,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 4,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 5,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 6,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 7,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 8,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-07-01",
+      "month_number": 9,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 0,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 1,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 2,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 3,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 4,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 5,
+      "cohort_size": 1,
+      "active_students": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 6,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 7,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 8,
+      "cohort_size": 1,
+      "active_students": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2021-08-01",
+      "month_number": 9,
+      "cohort_size": 1,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 0,
+      "cohort_size": 40,
+      "active_students": 20,
+      "retention_pct": 50.0
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 1,
+      "cohort_size": 40,
+      "active_students": 18,
+      "retention_pct": 45.0
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 2,
+      "cohort_size": 40,
+      "active_students": 9,
+      "retention_pct": 22.5
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 3,
+      "cohort_size": 40,
+      "active_students": 5,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 4,
+      "cohort_size": 40,
+      "active_students": 3,
+      "retention_pct": 7.5
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 5,
+      "cohort_size": 40,
+      "active_students": 10,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 6,
+      "cohort_size": 40,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 7,
+      "cohort_size": 40,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 8,
+      "cohort_size": 40,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-11-01",
+      "month_number": 9,
+      "cohort_size": 40,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 0,
+      "cohort_size": 29,
+      "active_students": 15,
+      "retention_pct": 51.72
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 1,
+      "cohort_size": 29,
+      "active_students": 11,
+      "retention_pct": 37.93
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 2,
+      "cohort_size": 29,
+      "active_students": 3,
+      "retention_pct": 10.34
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 3,
+      "cohort_size": 29,
+      "active_students": 2,
+      "retention_pct": 6.9
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 4,
+      "cohort_size": 29,
+      "active_students": 5,
+      "retention_pct": 17.24
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 5,
+      "cohort_size": 29,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 6,
+      "cohort_size": 29,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 7,
+      "cohort_size": 29,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 8,
+      "cohort_size": 29,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2021-12-01",
+      "month_number": 9,
+      "cohort_size": 29,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 0,
+      "cohort_size": 24,
+      "active_students": 18,
+      "retention_pct": 75.0
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 1,
+      "cohort_size": 24,
+      "active_students": 9,
+      "retention_pct": 37.5
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 2,
+      "cohort_size": 24,
+      "active_students": 3,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 3,
+      "cohort_size": 24,
+      "active_students": 3,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 4,
+      "cohort_size": 24,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 5,
+      "cohort_size": 24,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 6,
+      "cohort_size": 24,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 7,
+      "cohort_size": 24,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 8,
+      "cohort_size": 24,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-01-01",
+      "month_number": 9,
+      "cohort_size": 24,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 0,
+      "cohort_size": 17,
+      "active_students": 14,
+      "retention_pct": 82.35
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 1,
+      "cohort_size": 17,
+      "active_students": 6,
+      "retention_pct": 35.29
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 2,
+      "cohort_size": 17,
+      "active_students": 8,
+      "retention_pct": 47.06
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 3,
+      "cohort_size": 17,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 4,
+      "cohort_size": 17,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 5,
+      "cohort_size": 17,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 6,
+      "cohort_size": 17,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 7,
+      "cohort_size": 17,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 8,
+      "cohort_size": 17,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-02-01",
+      "month_number": 9,
+      "cohort_size": 17,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 0,
+      "cohort_size": 7,
+      "active_students": 5,
+      "retention_pct": 71.43
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 1,
+      "cohort_size": 7,
+      "active_students": 4,
+      "retention_pct": 57.14
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 2,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 3,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 4,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 5,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 6,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 7,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 8,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-03-01",
+      "month_number": 9,
+      "cohort_size": 7,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 0,
+      "cohort_size": 14,
+      "active_students": 8,
+      "retention_pct": 57.14
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 1,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 2,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 3,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 4,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 5,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 6,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 7,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 8,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    },
+    {
+      "cohort": "2022-04-01",
+      "month_number": 9,
+      "cohort_size": 14,
+      "active_students": null,
+      "retention_pct": null
+    }
+  ],
+  "10_activity": [
+    {
+      "weekday": 1,
+      "hour": 0,
+      "runs": 39,
+      "students": 1
+    },
+    {
+      "weekday": 1,
+      "hour": 1,
+      "runs": 3,
+      "students": 1
+    },
+    {
+      "weekday": 1,
+      "hour": 3,
+      "runs": 4,
+      "students": 1
+    },
+    {
+      "weekday": 1,
+      "hour": 5,
+      "runs": 25,
+      "students": 3
+    },
+    {
+      "weekday": 1,
+      "hour": 6,
+      "runs": 71,
+      "students": 7
+    },
+    {
+      "weekday": 1,
+      "hour": 7,
+      "runs": 91,
+      "students": 12
+    },
+    {
+      "weekday": 1,
+      "hour": 8,
+      "runs": 47,
+      "students": 8
+    },
+    {
+      "weekday": 1,
+      "hour": 9,
+      "runs": 83,
+      "students": 8
+    },
+    {
+      "weekday": 1,
+      "hour": 10,
+      "runs": 275,
+      "students": 16
+    },
+    {
+      "weekday": 1,
+      "hour": 11,
+      "runs": 102,
+      "students": 14
+    },
+    {
+      "weekday": 1,
+      "hour": 12,
+      "runs": 127,
+      "students": 11
+    },
+    {
+      "weekday": 1,
+      "hour": 13,
+      "runs": 76,
+      "students": 12
+    },
+    {
+      "weekday": 1,
+      "hour": 14,
+      "runs": 108,
+      "students": 11
+    },
+    {
+      "weekday": 1,
+      "hour": 15,
+      "runs": 89,
+      "students": 7
+    },
+    {
+      "weekday": 1,
+      "hour": 16,
+      "runs": 68,
+      "students": 8
+    },
+    {
+      "weekday": 1,
+      "hour": 17,
+      "runs": 190,
+      "students": 12
+    },
+    {
+      "weekday": 1,
+      "hour": 18,
+      "runs": 140,
+      "students": 16
+    },
+    {
+      "weekday": 1,
+      "hour": 19,
+      "runs": 168,
+      "students": 8
+    },
+    {
+      "weekday": 1,
+      "hour": 20,
+      "runs": 65,
+      "students": 10
+    },
+    {
+      "weekday": 1,
+      "hour": 21,
+      "runs": 79,
+      "students": 4
+    },
+    {
+      "weekday": 1,
+      "hour": 22,
+      "runs": 12,
+      "students": 3
+    },
+    {
+      "weekday": 1,
+      "hour": 23,
+      "runs": 4,
+      "students": 1
+    },
+    {
+      "weekday": 2,
+      "hour": 4,
+      "runs": 39,
+      "students": 3
+    },
+    {
+      "weekday": 2,
+      "hour": 5,
+      "runs": 67,
+      "students": 4
+    },
+    {
+      "weekday": 2,
+      "hour": 6,
+      "runs": 120,
+      "students": 7
+    },
+    {
+      "weekday": 2,
+      "hour": 7,
+      "runs": 153,
+      "students": 11
+    },
+    {
+      "weekday": 2,
+      "hour": 8,
+      "runs": 43,
+      "students": 8
+    },
+    {
+      "weekday": 2,
+      "hour": 9,
+      "runs": 166,
+      "students": 14
+    },
+    {
+      "weekday": 2,
+      "hour": 10,
+      "runs": 190,
+      "students": 12
+    },
+    {
+      "weekday": 2,
+      "hour": 11,
+      "runs": 161,
+      "students": 13
+    },
+    {
+      "weekday": 2,
+      "hour": 12,
+      "runs": 101,
+      "students": 8
+    },
+    {
+      "weekday": 2,
+      "hour": 13,
+      "runs": 215,
+      "students": 14
+    },
+    {
+      "weekday": 2,
+      "hour": 14,
+      "runs": 184,
+      "students": 12
+    },
+    {
+      "weekday": 2,
+      "hour": 15,
+      "runs": 158,
+      "students": 14
+    },
+    {
+      "weekday": 2,
+      "hour": 16,
+      "runs": 106,
+      "students": 10
+    },
+    {
+      "weekday": 2,
+      "hour": 17,
+      "runs": 130,
+      "students": 10
+    },
+    {
+      "weekday": 2,
+      "hour": 18,
+      "runs": 86,
+      "students": 12
+    },
+    {
+      "weekday": 2,
+      "hour": 19,
+      "runs": 100,
+      "students": 11
+    },
+    {
+      "weekday": 2,
+      "hour": 20,
+      "runs": 71,
+      "students": 7
+    },
+    {
+      "weekday": 2,
+      "hour": 21,
+      "runs": 69,
+      "students": 5
+    },
+    {
+      "weekday": 2,
+      "hour": 22,
+      "runs": 34,
+      "students": 2
+    },
+    {
+      "weekday": 2,
+      "hour": 23,
+      "runs": 22,
+      "students": 1
+    },
+    {
+      "weekday": 3,
+      "hour": 0,
+      "runs": 36,
+      "students": 1
+    },
+    {
+      "weekday": 3,
+      "hour": 3,
+      "runs": 34,
+      "students": 1
+    },
+    {
+      "weekday": 3,
+      "hour": 4,
+      "runs": 42,
+      "students": 1
+    },
+    {
+      "weekday": 3,
+      "hour": 5,
+      "runs": 17,
+      "students": 3
+    },
+    {
+      "weekday": 3,
+      "hour": 6,
+      "runs": 90,
+      "students": 4
+    },
+    {
+      "weekday": 3,
+      "hour": 7,
+      "runs": 131,
+      "students": 13
+    },
+    {
+      "weekday": 3,
+      "hour": 8,
+      "runs": 146,
+      "students": 15
+    },
+    {
+      "weekday": 3,
+      "hour": 9,
+      "runs": 194,
+      "students": 12
+    },
+    {
+      "weekday": 3,
+      "hour": 10,
+      "runs": 208,
+      "students": 15
+    },
+    {
+      "weekday": 3,
+      "hour": 11,
+      "runs": 228,
+      "students": 22
+    },
+    {
+      "weekday": 3,
+      "hour": 12,
+      "runs": 189,
+      "students": 19
+    },
+    {
+      "weekday": 3,
+      "hour": 13,
+      "runs": 180,
+      "students": 12
+    },
+    {
+      "weekday": 3,
+      "hour": 14,
+      "runs": 117,
+      "students": 11
+    },
+    {
+      "weekday": 3,
+      "hour": 15,
+      "runs": 216,
+      "students": 14
+    },
+    {
+      "weekday": 3,
+      "hour": 16,
+      "runs": 148,
+      "students": 10
+    },
+    {
+      "weekday": 3,
+      "hour": 17,
+      "runs": 211,
+      "students": 12
+    },
+    {
+      "weekday": 3,
+      "hour": 18,
+      "runs": 232,
+      "students": 17
+    },
+    {
+      "weekday": 3,
+      "hour": 19,
+      "runs": 299,
+      "students": 15
+    },
+    {
+      "weekday": 3,
+      "hour": 20,
+      "runs": 185,
+      "students": 8
+    },
+    {
+      "weekday": 3,
+      "hour": 21,
+      "runs": 136,
+      "students": 7
+    },
+    {
+      "weekday": 3,
+      "hour": 22,
+      "runs": 27,
+      "students": 3
+    },
+    {
+      "weekday": 3,
+      "hour": 23,
+      "runs": 7,
+      "students": 1
+    },
+    {
+      "weekday": 4,
+      "hour": 1,
+      "runs": 29,
+      "students": 1
+    },
+    {
+      "weekday": 4,
+      "hour": 2,
+      "runs": 24,
+      "students": 2
+    },
+    {
+      "weekday": 4,
+      "hour": 4,
+      "runs": 9,
+      "students": 2
+    },
+    {
+      "weekday": 4,
+      "hour": 5,
+      "runs": 23,
+      "students": 1
+    },
+    {
+      "weekday": 4,
+      "hour": 6,
+      "runs": 44,
+      "students": 3
+    },
+    {
+      "weekday": 4,
+      "hour": 7,
+      "runs": 97,
+      "students": 7
+    },
+    {
+      "weekday": 4,
+      "hour": 8,
+      "runs": 121,
+      "students": 7
+    },
+    {
+      "weekday": 4,
+      "hour": 9,
+      "runs": 83,
+      "students": 5
+    },
+    {
+      "weekday": 4,
+      "hour": 10,
+      "runs": 125,
+      "students": 14
+    },
+    {
+      "weekday": 4,
+      "hour": 11,
+      "runs": 167,
+      "students": 17
+    },
+    {
+      "weekday": 4,
+      "hour": 12,
+      "runs": 206,
+      "students": 13
+    },
+    {
+      "weekday": 4,
+      "hour": 13,
+      "runs": 173,
+      "students": 13
+    },
+    {
+      "weekday": 4,
+      "hour": 14,
+      "runs": 148,
+      "students": 10
+    },
+    {
+      "weekday": 4,
+      "hour": 15,
+      "runs": 106,
+      "students": 8
+    },
+    {
+      "weekday": 4,
+      "hour": 16,
+      "runs": 136,
+      "students": 8
+    },
+    {
+      "weekday": 4,
+      "hour": 17,
+      "runs": 126,
+      "students": 8
+    },
+    {
+      "weekday": 4,
+      "hour": 18,
+      "runs": 138,
+      "students": 9
+    },
+    {
+      "weekday": 4,
+      "hour": 19,
+      "runs": 205,
+      "students": 10
+    },
+    {
+      "weekday": 4,
+      "hour": 20,
+      "runs": 168,
+      "students": 11
+    },
+    {
+      "weekday": 4,
+      "hour": 21,
+      "runs": 51,
+      "students": 6
+    },
+    {
+      "weekday": 4,
+      "hour": 22,
+      "runs": 25,
+      "students": 2
+    },
+    {
+      "weekday": 4,
+      "hour": 23,
+      "runs": 16,
+      "students": 1
+    },
+    {
+      "weekday": 5,
+      "hour": 0,
+      "runs": 1,
+      "students": 1
+    },
+    {
+      "weekday": 5,
+      "hour": 4,
+      "runs": 59,
+      "students": 3
+    },
+    {
+      "weekday": 5,
+      "hour": 5,
+      "runs": 54,
+      "students": 4
+    },
+    {
+      "weekday": 5,
+      "hour": 6,
+      "runs": 80,
+      "students": 3
+    },
+    {
+      "weekday": 5,
+      "hour": 7,
+      "runs": 80,
+      "students": 8
+    },
+    {
+      "weekday": 5,
+      "hour": 8,
+      "runs": 96,
+      "students": 6
+    },
+    {
+      "weekday": 5,
+      "hour": 9,
+      "runs": 94,
+      "students": 10
+    },
+    {
+      "weekday": 5,
+      "hour": 10,
+      "runs": 147,
+      "students": 9
+    },
+    {
+      "weekday": 5,
+      "hour": 11,
+      "runs": 161,
+      "students": 11
+    },
+    {
+      "weekday": 5,
+      "hour": 12,
+      "runs": 87,
+      "students": 8
+    },
+    {
+      "weekday": 5,
+      "hour": 13,
+      "runs": 79,
+      "students": 6
+    },
+    {
+      "weekday": 5,
+      "hour": 14,
+      "runs": 118,
+      "students": 7
+    },
+    {
+      "weekday": 5,
+      "hour": 15,
+      "runs": 61,
+      "students": 6
+    },
+    {
+      "weekday": 5,
+      "hour": 16,
+      "runs": 83,
+      "students": 6
+    },
+    {
+      "weekday": 5,
+      "hour": 17,
+      "runs": 134,
+      "students": 9
+    },
+    {
+      "weekday": 5,
+      "hour": 18,
+      "runs": 208,
+      "students": 10
+    },
+    {
+      "weekday": 5,
+      "hour": 19,
+      "runs": 196,
+      "students": 8
+    },
+    {
+      "weekday": 5,
+      "hour": 20,
+      "runs": 133,
+      "students": 9
+    },
+    {
+      "weekday": 5,
+      "hour": 21,
+      "runs": 100,
+      "students": 6
+    },
+    {
+      "weekday": 5,
+      "hour": 22,
+      "runs": 30,
+      "students": 2
+    },
+    {
+      "weekday": 5,
+      "hour": 23,
+      "runs": 10,
+      "students": 2
+    },
+    {
+      "weekday": 6,
+      "hour": 2,
+      "runs": 7,
+      "students": 1
+    },
+    {
+      "weekday": 6,
+      "hour": 3,
+      "runs": 53,
+      "students": 1
+    },
+    {
+      "weekday": 6,
+      "hour": 4,
+      "runs": 26,
+      "students": 1
+    },
+    {
+      "weekday": 6,
+      "hour": 5,
+      "runs": 20,
+      "students": 2
+    },
+    {
+      "weekday": 6,
+      "hour": 6,
+      "runs": 49,
+      "students": 2
+    },
+    {
+      "weekday": 6,
+      "hour": 7,
+      "runs": 9,
+      "students": 2
+    },
+    {
+      "weekday": 6,
+      "hour": 8,
+      "runs": 117,
+      "students": 8
+    },
+    {
+      "weekday": 6,
+      "hour": 9,
+      "runs": 29,
+      "students": 7
+    },
+    {
+      "weekday": 6,
+      "hour": 10,
+      "runs": 78,
+      "students": 6
+    },
+    {
+      "weekday": 6,
+      "hour": 11,
+      "runs": 86,
+      "students": 10
+    },
+    {
+      "weekday": 6,
+      "hour": 12,
+      "runs": 93,
+      "students": 10
+    },
+    {
+      "weekday": 6,
+      "hour": 13,
+      "runs": 142,
+      "students": 9
+    },
+    {
+      "weekday": 6,
+      "hour": 14,
+      "runs": 154,
+      "students": 8
+    },
+    {
+      "weekday": 6,
+      "hour": 15,
+      "runs": 54,
+      "students": 5
+    },
+    {
+      "weekday": 6,
+      "hour": 16,
+      "runs": 88,
+      "students": 7
+    },
+    {
+      "weekday": 6,
+      "hour": 17,
+      "runs": 123,
+      "students": 7
+    },
+    {
+      "weekday": 6,
+      "hour": 18,
+      "runs": 212,
+      "students": 11
+    },
+    {
+      "weekday": 6,
+      "hour": 19,
+      "runs": 200,
+      "students": 11
+    },
+    {
+      "weekday": 6,
+      "hour": 20,
+      "runs": 218,
+      "students": 8
+    },
+    {
+      "weekday": 6,
+      "hour": 21,
+      "runs": 154,
+      "students": 7
+    },
+    {
+      "weekday": 6,
+      "hour": 22,
+      "runs": 15,
+      "students": 2
+    },
+    {
+      "weekday": 7,
+      "hour": 3,
+      "runs": 1,
+      "students": 1
+    },
+    {
+      "weekday": 7,
+      "hour": 4,
+      "runs": 21,
+      "students": 1
+    },
+    {
+      "weekday": 7,
+      "hour": 5,
+      "runs": 20,
+      "students": 2
+    },
+    {
+      "weekday": 7,
+      "hour": 6,
+      "runs": 6,
+      "students": 1
+    },
+    {
+      "weekday": 7,
+      "hour": 7,
+      "runs": 23,
+      "students": 4
+    },
+    {
+      "weekday": 7,
+      "hour": 8,
+      "runs": 128,
+      "students": 6
+    },
+    {
+      "weekday": 7,
+      "hour": 9,
+      "runs": 82,
+      "students": 9
+    },
+    {
+      "weekday": 7,
+      "hour": 10,
+      "runs": 97,
+      "students": 8
+    },
+    {
+      "weekday": 7,
+      "hour": 11,
+      "runs": 64,
+      "students": 7
+    },
+    {
+      "weekday": 7,
+      "hour": 12,
+      "runs": 129,
+      "students": 10
+    },
+    {
+      "weekday": 7,
+      "hour": 13,
+      "runs": 220,
+      "students": 12
+    },
+    {
+      "weekday": 7,
+      "hour": 14,
+      "runs": 240,
+      "students": 8
+    },
+    {
+      "weekday": 7,
+      "hour": 15,
+      "runs": 262,
+      "students": 12
+    },
+    {
+      "weekday": 7,
+      "hour": 16,
+      "runs": 240,
+      "students": 10
+    },
+    {
+      "weekday": 7,
+      "hour": 17,
+      "runs": 215,
+      "students": 19
+    },
+    {
+      "weekday": 7,
+      "hour": 18,
+      "runs": 205,
+      "students": 15
+    },
+    {
+      "weekday": 7,
+      "hour": 19,
+      "runs": 200,
+      "students": 12
+    },
+    {
+      "weekday": 7,
+      "hour": 20,
+      "runs": 168,
+      "students": 7
+    },
+    {
+      "weekday": 7,
+      "hour": 21,
+      "runs": 68,
+      "students": 8
+    },
+    {
+      "weekday": 7,
+      "hour": 22,
+      "runs": 10,
+      "students": 4
+    },
+    {
+      "weekday": 7,
+      "hour": 23,
+      "runs": 18,
+      "students": 1
+    }
+  ],
+  "11_codecoins": [
+    {
+      "type_id": 2,
+      "description": "Пополнение кошелька",
+      "operations": 5,
+      "min_value": 100,
+      "max_value": 10000,
+      "raw_sum": 12200
+    },
+    {
+      "type_id": 3,
+      "description": "Регистрация",
+      "operations": 121,
+      "min_value": 50,
+      "max_value": 100,
+      "raw_sum": 7250
+    },
+    {
+      "type_id": 4,
+      "description": "Заход на платформу",
+      "operations": 1136,
+      "min_value": 3,
+      "max_value": 3,
+      "raw_sum": 3408
+    },
+    {
+      "type_id": 5,
+      "description": "Недельный марафон",
+      "operations": 26,
+      "min_value": 30,
+      "max_value": 30,
+      "raw_sum": 780
+    },
+    {
+      "type_id": 6,
+      "description": "Пригласить друга",
+      "operations": 1,
+      "min_value": 150,
+      "max_value": 150,
+      "raw_sum": 150
+    },
+    {
+      "type_id": 8,
+      "description": "5 задач",
+      "operations": 85,
+      "min_value": 30,
+      "max_value": 30,
+      "raw_sum": 2550
+    },
+    {
+      "type_id": 9,
+      "description": "15 задач",
+      "operations": 78,
+      "min_value": 100,
+      "max_value": 100,
+      "raw_sum": 7800
+    },
+    {
+      "type_id": 10,
+      "description": "25 задач",
+      "operations": 50,
+      "min_value": 200,
+      "max_value": 200,
+      "raw_sum": 10000
+    },
+    {
+      "type_id": 11,
+      "description": "100 задач",
+      "operations": 2,
+      "min_value": 1000,
+      "max_value": 1000,
+      "raw_sum": 2000
+    },
+    {
+      "type_id": 19,
+      "description": "Найти баг",
+      "operations": 4,
+      "min_value": 100,
+      "max_value": 5000,
+      "raw_sum": 6800
+    },
+    {
+      "type_id": 22,
+      "description": "Решить задачу",
+      "operations": 2793,
+      "min_value": 0,
+      "max_value": 20,
+      "raw_sum": 3965
+    },
+    {
+      "type_id": 23,
+      "description": "Купить задачу",
+      "operations": 145,
+      "min_value": 0,
+      "max_value": 55,
+      "raw_sum": 1740
+    },
+    {
+      "type_id": 24,
+      "description": "Купить подсказку к задаче",
+      "operations": 8,
+      "min_value": 0,
+      "max_value": 10,
+      "raw_sum": 40
+    },
+    {
+      "type_id": 25,
+      "description": "Купить решение задачи",
+      "operations": 6,
+      "min_value": 10,
+      "max_value": 25,
+      "raw_sum": 85
+    },
+    {
+      "type_id": 27,
+      "description": "Купить тест",
+      "operations": 12,
+      "min_value": 0,
+      "max_value": 30,
+      "raw_sum": 250
+    }
+  ],
+  "12_homework_gaps": [
+    {
+      "problem_id": 182,
+      "name": "Python. ДЗ 4: Вернуть типы и значения параметров инициализации",
+      "complexity": 1
+    }
+  ]
+}
